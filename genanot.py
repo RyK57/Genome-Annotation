@@ -133,7 +133,7 @@ def read_fasta_file(contents):
 
 
 def main():
-    st.title("FASTA Sequence Viewer")
+    st.title("Genome Annotation and Data Visualization")
     st.write("Upload a text file containing FASTA sequences:")
 
     file = st.file_uploader("Upload file", type=["txt"])
