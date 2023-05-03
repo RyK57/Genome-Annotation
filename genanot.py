@@ -134,7 +134,7 @@ def read_fasta_file(contents):
 
 def main():
     st.title("Genome Annotation and Data Visualization")
-    st.title("-Rithvik Sabnekar")
+    st.write("-Rithvik Sabnekar")
     st.write("Upload a text file containing FASTA sequences:")
 
     file = st.file_uploader("Upload file", type=["txt"])
